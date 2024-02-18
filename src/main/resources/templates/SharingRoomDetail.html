@@ -42,7 +42,7 @@
                     send();
                 });
 
-                const websocket = new WebSocket("ws://localhost:8080/ws/chat");
+                const websocket = new WebSocket("ws://localhost:8080/nanum");
 
                 websocket.onmessage = onMessage;
                 websocket.onopen = onOpen;
